@@ -44,7 +44,7 @@ public class InvertTree {
         node2.left=node5;
         node2.right=node6;
         TreeNode res=invertTree(root);
-
+        System.out.println(res);
 
     }
     public static TreeNode invertTree(TreeNode root)
