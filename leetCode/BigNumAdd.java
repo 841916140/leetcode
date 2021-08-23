@@ -1,5 +1,3 @@
-package leetCode;
-
 public class BigNumAdd {
     /**
      * 大数相加，用两个指针从个位开始两两相加，用stringbuilder 一个个append，最后再翻转，对于两个大数位数不同的情况

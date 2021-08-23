@@ -1,4 +1,4 @@
-package leetCode;
+
 import java.util.*;
 /**
  * 全排列
@@ -17,28 +17,26 @@ public class Permute {
 
     public static List<List<Integer>> permute(int[] nums)
     {
-        
-        for (int num : nums) 
-        {
-            list.add(num);
-        }
-        int n=nums.length;
-        backtrack(n,0);
+        backtrack(nums);
         return res;
     }
 
-    public static void backtrack(int n,int cur)
+    public static void backtrack(int[] nums)
     {
-        if(cur==n)
+        if(list.size()==nums.length)
         {
-            res.add(new ArrayList<Integer>(list));
+            res.add(new ArrayList<>(list));
             return;
         }
-        for(int i=cur;i<n;i++)
+        for(int i=0;i<nums.length;i++)
         {
-            Collections.swap(list, i, cur);
-            backtrack(n,cur+1);
-            Collections.swap(list, i, cur);
+            if(list.contains(nums[i]))
+            {
+                continue;
+            }
+            list.add(nums[i]);
+            backtrack(nums);
+            list.remove(list.size()-1);
         }
     }
 }

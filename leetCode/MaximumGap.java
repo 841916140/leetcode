@@ -1,4 +1,3 @@
-package leetCode;
 
 import java.util.Arrays;
 

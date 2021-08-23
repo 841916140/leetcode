@@ -1,4 +1,4 @@
-package leetCode;
+
 
 public class GetBestGoldMining {
     /**

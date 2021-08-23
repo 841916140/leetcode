@@ -1,4 +1,4 @@
-package leetCode;
+
 import java.util.*;
 /**
  * 给定一个二叉树（具有根结点 root）， 一个目标结点 target ，和一个整数值 K 。
