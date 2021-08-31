@@ -1,4 +1,4 @@
-
+package leetCode;
 
 public class CountPrimes {
     //给出一个数n，统计所有小于非负整数n的质数的数量，对时间复杂度有要求

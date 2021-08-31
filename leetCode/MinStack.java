@@ -1,4 +1,4 @@
-
+package leetCode;
 import java.util.Stack;
 
 //实现一个栈，该栈带有出栈，入栈，取最小元素(getMin)3个方法，保证这3个方法的时间复杂度都是O(1)

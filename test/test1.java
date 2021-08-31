@@ -1,3 +1,4 @@
+package test;
 import java.util.*;
 
 public class test1 {
@@ -36,6 +37,7 @@ public class test1 {
             b=a+1;
         }
         System.out.println(sum);
+        scan.close();
     }
     
     

@@ -1,4 +1,4 @@
-
+package leetCode;
 public class SingleNumber2 {
     /**
      * 给你一个整数数组 nums ，除某个元素仅出现一次外，其余每个元素都恰出现三次 。

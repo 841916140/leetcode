@@ -1,4 +1,4 @@
-
+package leetCode;
 import java.util.*;
 /**
  * 全排列

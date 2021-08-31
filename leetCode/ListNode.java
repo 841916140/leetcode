@@ -1,4 +1,4 @@
-
+package leetCode;
 
 class ListNode {
     int val;
@@ -7,6 +7,12 @@ class ListNode {
     {
         this.val=val;
         next=null;
+    }
+    ListNode(int val,ListNode next)
+    {
+        this.val=val;
+        this.next=next;
+
     }
     
 }

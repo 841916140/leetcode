@@ -1,4 +1,4 @@
-
+package leetCode;
 import java.util.Arrays;
 
 public class NextPermutation {

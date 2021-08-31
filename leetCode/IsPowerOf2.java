@@ -1,4 +1,4 @@
-
+package leetCode;
 
 public class IsPowerOf2 {
     //判断一个整数是否是2的整数幂

@@ -1,3 +1,4 @@
+package leetCode;
 import java.util.*;
 /**
  * 字符串的全排列如abc，则有acb bac等，同样用回溯法来做

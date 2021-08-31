@@ -1,4 +1,4 @@
-
+package leetCode;
 
 public class GCD {
     //求最大公约数，有辗转相除法和更相减损术

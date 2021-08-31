@@ -1,3 +1,4 @@
+package test;
 import java.util.*;
 public class test2 {
     public static void main(String[] args) {
@@ -5,6 +6,7 @@ public class test2 {
         int n=scan.nextInt();
         int k=scan.nextInt();
         System.out.println(findKthBit(n,k));
+        scan.close();
     }
     public static char findKthBit(int n,int k)
     {
@@ -22,6 +24,7 @@ public class test2 {
             stringBuilder.append(reverse(strings[i-1]));
             strings[i]=stringBuilder.toString();
         }
+        
         return strings[n-1].charAt(k-1);
            
     }
